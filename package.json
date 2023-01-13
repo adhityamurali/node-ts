@@ -4,7 +4,7 @@
   "description": "SquareShift E-commerce",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm install && tsc",
     "start": "node dist/src/index.js",
     "start:local": "dotenv -e .env -- ts-node-dev --transpile-only src/index.ts | pino-pretty -c",
     "test": "npm run lint && npm run style:check && npm run test:unit",
