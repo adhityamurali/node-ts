@@ -1,4 +1,4 @@
-import { SetupServer } from '@src/server';
+import { SetupServer } from '@source/server';
 import supertest from 'supertest';
 import path from 'path';
 import {

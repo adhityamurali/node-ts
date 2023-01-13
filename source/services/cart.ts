@@ -1,5 +1,5 @@
-import { Cart, Item } from '@src/models/cart';
-import { Product } from '@src/models/product';
+import { Cart, Item } from '@source/models/cart';
+import { Product } from '@source/models/product';
 
 export class CartService {
   public async appendToCart(

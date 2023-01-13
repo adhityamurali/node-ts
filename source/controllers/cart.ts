@@ -1,10 +1,10 @@
 import { Controller, Post, Get, Delete } from '@overnightjs/core';
 import { Request, Response } from 'express';
 import { BaseController } from '.';
-import { CartRepository, WarehouseRepository } from '@src/repositories';
-import { ProductRepository } from '@src/repositories';
-import { Cart } from '@src/models/cart';
-import { CartService } from '@src/services/Cart';
+import { CartRepository, WarehouseRepository } from '@source/repositories';
+import { ProductRepository } from '@source/repositories';
+import { Cart } from '@source/models/cart';
+import { CartService } from '@source/services/Cart';
 const cartService = new CartService()
 
 @Controller('cart')

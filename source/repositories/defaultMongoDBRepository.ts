@@ -1,5 +1,5 @@
-import logger from '@src/logger';
-import { BaseModel } from '@src/models';
+import logger from '@source/logger';
+import { BaseModel } from '@source/models';
 import { Error, Model } from 'mongoose';
 import { FilterOptions, WithId } from '.';
 import {

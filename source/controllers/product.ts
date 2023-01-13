@@ -1,7 +1,7 @@
 import { Controller, Post, Get } from '@overnightjs/core';
 import { Request, Response } from 'express';
 import { BaseController } from '.';
-import { ProductRepository } from '@src/repositories';
+import { ProductRepository } from '@source/repositories';
 
 @Controller('product')
 export class ProductController extends BaseController {

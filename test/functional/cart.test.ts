@@ -1,4 +1,4 @@
-import { Cart } from '@src/models/cart';
+import { Cart } from '@source/models/cart';
 
 describe('Product functional tests', () => {
   beforeEach(async () => {

@@ -1,4 +1,4 @@
-import { Product } from '@src/models/product';
+import { Product } from '@source/models/product';
 
 describe('Product functional tests', () => {
   beforeEach(async () => {

@@ -6,7 +6,7 @@ import * as http from 'http';
 import expressPino from 'express-pino-logger';
 import cors from 'cors';
 
-import * as database from '@src/database';
+import * as database from '@source/database';
 
 import { CartController } from './controllers/cart';
 import logger from './logger';

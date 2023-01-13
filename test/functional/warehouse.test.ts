@@ -1,4 +1,4 @@
-import { Warehouse } from '@src/models/warehouse';
+import { Warehouse } from '@source/models/warehouse';
 
 describe('Product functional tests', () => {
   beforeEach(async () => {

@@ -1,5 +1,5 @@
 import { DefaultMongoDBRepository } from './defaultMongoDBRepository';
-import { Warehouse } from '@src/models/warehouse';
+import { Warehouse } from '@source/models/warehouse';
 import { WarehouseRepository } from '.';
 
 export class WarehouseMongoDBRepository

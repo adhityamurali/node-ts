@@ -1,6 +1,6 @@
-import { Cart } from '@src/models/cart';
-import { Product } from '@src/models/product';
-import { Warehouse } from '@src/models/warehouse';
+import { Cart } from '@source/models/cart';
+import { Product } from '@source/models/product';
+import { Warehouse } from '@source/models/warehouse';
 
 export type FilterOptions = Record<string, unknown>;
 

@@ -1,7 +1,7 @@
 import { Controller, Get } from '@overnightjs/core';
 import { Request, Response } from 'express';
 import { BaseController } from '.';
-import { WarehouseRepository } from '@src/repositories';
+import { WarehouseRepository } from '@source/repositories';
 
 @Controller('warehouse')
 export class WarehouseController extends BaseController {

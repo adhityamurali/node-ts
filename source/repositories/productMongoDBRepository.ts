@@ -1,5 +1,5 @@
 import { DefaultMongoDBRepository } from './defaultMongoDBRepository';
-import { Product } from '@src/models/product';
+import { Product } from '@source/models/product';
 import { ProductRepository } from '.';
 
 export class ProductMongoDBRepository

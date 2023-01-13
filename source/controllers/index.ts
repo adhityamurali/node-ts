@@ -1,11 +1,11 @@
 import { Response } from 'express';
-import logger from '@src/logger';
-import ApiError, { APIError } from '@src/util/errors/api-error';
+import logger from '@source/logger';
+import ApiError, { APIError } from '@source/util/errors/api-error';
 import {
   DatabaseError,
   DatabaseUnknownClientError,
   DatabaseValidationError,
-} from '@src/repositories/repository';
+} from '@source/repositories/repository';
 
 export abstract class BaseController {
   protected sendCreateUpdateErrorResponse(res: Response, error: unknown): void {
