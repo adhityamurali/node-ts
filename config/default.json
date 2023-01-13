@@ -1,0 +1,12 @@
+{
+  "App": {
+    "port": 5050,
+    "database": {
+      "mongoUrl": "mongodb+srv://nodejs:nodejs@cluster0.dwkf1d9.mongodb.net/ecom"
+    },
+    "logger": {
+      "enabled": true,
+      "level": "info"
+    }
+  }
+}
